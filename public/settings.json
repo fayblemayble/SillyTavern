@@ -1,13 +1,13 @@
 {
     "username": "You",
-    "api_server": "http://localhost:5000/api",
-    "api_server_textgenerationwebui": "http://127.0.0.1:7860",
+    "api_server": "https://mongolia-face-belize-villages.trycloudflare.com/api",
+    "api_server_textgenerationwebui": "http://127.0.0.1:7860/api",
     "preset_settings": "Classic-Pygmalion-6b",
     "user_avatar": "legat.png",
     "amount_gen": 180,
     "max_context": 2048,
     "main_api": "kobold",
-    "world_info": null,
+    "world_info": "Toaru",
     "world_info_depth": 2,
     "world_info_budget": 200,
     "world_info_recursive": false,
@@ -44,8 +44,8 @@
     "horde_settings": {
         "models": [],
         "auto_adjust_response_length": true,
-        "auto_adjust_context_length": false,
-        "trusted_workers_only": false
+        "auto_adjust_context_length": true,
+        "trusted_workers_only": true
     },
     "power_user": {
         "tokenizer": 2,
@@ -230,9 +230,10 @@
         }
     ],
     "tag_map": {
-        "Aqua.png": [],
         "Darkness.png": [],
-        "Megumin.png": []
+        "Megumin.png": [],
+        "Wally Darling (Yandere).png": [],
+        "Wally Darling (Yandere)_1.png": []
     },
     "temp_novel": 1.11,
     "rep_pen_novel": 1.11,
@@ -250,8 +251,9 @@
     "tfs": 0.9,
     "rep_pen_slope": 0.9,
     "single_line": false,
-    "use_stop_sequence": false,
+    "use_stop_sequence": true,
     "streaming_kobold": false,
+    "can_use_streaming": false,
     "temp_openai": "0.9",
     "freq_pen_openai": 0.7,
     "pres_pen_openai": 0.7,
@@ -299,6 +301,6 @@
     "jailbreak_system": false,
     "reverse_proxy": "",
     "legacy_streaming": false,
-    "chat_completion_source": "openai",
+    "chat_completion_source": "windowai",
     "max_context_unlocked": false
 }
